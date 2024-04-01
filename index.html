@@ -8,23 +8,50 @@
     <meta name="keywords" content="viajes, chile, recorrer, conocer">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
 </head>
 <body>
-    <div class="col-4">
-        <img src="Assets/img/carousel2.jpg" alt="Texto alternativo"
-        class="img-fluid">
+    <nav id="Inicio" class="row"> 
+        <div class="col-6">
+            <a class="logo" href="#"><img src="Assets/img/viajes.svg" width="20"> Viajes Chile</a>
         </div>
-    <div class="Navegacion" class="col-4">
-    <a style="text-align: left;" class="logo" href="#"><img src="Assets/img/viajes.svg" width="20"> Viajes Chile</a>
-    <nav style="text-align: right;">
-        <a  href="#">Inicio</a>
-        <a  href="#">Quienes somos</a> 
-        <a  href="#">Destacados</a>
-        <a  href="#">Contacto</a>
-    </nav>    
-</div>
+        <div id="menu" class="col-6">
+            <a  href="#">Inicio</a>
+            <a  href="#">Quienes somos</a> 
+            <a  href="#">Destacados</a>
+            <a  href="#">Contacto</a>
+        </div>    
+</nav>
+<div id="carruselviajes" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carruselviajes" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carruselviajes" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carruselviajes" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <a class="logo" href="#"> <img src="Assets/img/carousel1.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="Assets/img/carousel2.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="Assets/img/carousel3.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carruselviajes" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carruselviajes" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
