@@ -1,0 +1,7 @@
+.Navegacion {
+    background-image: url(../img/carousel1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
