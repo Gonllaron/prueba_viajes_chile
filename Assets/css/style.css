@@ -16,6 +16,10 @@ div{align-items: center;}
         text-align: center;
         color: rgb(255, 255, 255);
     }
+    #quienes-somos2{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
     #avion{
         color: rgb(255, 255, 255);
         background-color:aqua
@@ -28,7 +32,73 @@ div{align-items: center;}
         color: rgb(255, 255, 255);
         background-color:aqua
     }
+    #destacados{
+        background-color: black;
+    }
 
+
+        #destacados-div {
+            background-color: black;
+            margin-left: 5%;
+            margin-right: 5%;
+            }
+            #dest1 {
+            background-color: aqua;
+            margin: 1px;
+            padding: 50px;
+            }
+            #dest1 img {
+                width: 100%;
+                }
+         #dest2 {
+            background-color: aqua;
+            margin: 1px;
+            padding: 50px;
+            }
+            #dest2 img {
+                width: 100%;
+                }
+                #dest2 .texto {
+                width: 40%;
+                margin: 1px;
+                }
+                #dest2 img, .texto {
+                    display: inline-block;
+                    vertical-align: middle;
+                    }
+                    #dest3 {
+                        background-color: aqua;
+                        margin: 1px;
+                        padding: 50px;
+                        }
+                        #dest3 img {
+                            width: 100%;
+                            }
+                            #dest3 .texto {
+                            width: 40%;
+                            margin: 1px;
+                            }
+                            #dest3 img, .texto {
+                                display: inline-block;
+                                vertical-align: middle;
+                                }
+                                #dest4 {
+                                    background-color: aqua;
+                                    margin: 1px;
+                                    padding: 50px;
+                                    }
+                                    #dest4 img {
+                                        width: 100%;
+                                        }
+                                        #dest4 .texto {
+                                        width: 40%;
+                                        margin: 1px;
+                                        }
+                                        #dest4 img, .texto {
+                                            display: inline-block;
+                                            vertical-align: middle;
+                                            }
+    
 
       /*  .dancing-script-<uniquifier> {
             font-family: "Dancing Script", cursive;
